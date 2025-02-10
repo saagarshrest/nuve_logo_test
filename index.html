@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thermostat Logo Uploader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="thermostat-container">
+            <img src="/thermostat.png" alt="Thermostat" class="thermostat-image">
+            <div class="logo-container">
+                <div class="logo-placeholder"></div>
+            </div>
+        </div>
+
+        <label class="upload-label">
+            <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="17 8 12 3 7 8"></polyline>
+                <line x1="12" y1="3" x2="12" y2="15"></line>
+            </svg>
+            Upload Logo
+            <input type="file" accept="image/*" class="file-input">
+        </label>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
